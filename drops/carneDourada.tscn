@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://5qiikahprb7o"]
+
+[ext_resource type="PackedScene" uid="uid://yar60pqtin27" path="res://drops/carne.tscn" id="1_xk26b"]
+
+[node name="CarneDourada" instance=ExtResource("1_xk26b")]
+self_modulate = Color(1.5, 1.5, 0, 1)
+scale = Vector2(1.5, 1.5)
+qtdRegen = 100
+
+[node name="CollisionShape2D" parent="Area2D" index="0"]
+visible = false

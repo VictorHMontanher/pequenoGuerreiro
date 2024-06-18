@@ -1,0 +1,108 @@
+[gd_scene load_steps=6 format=3 uid="uid://77ex28no0mjx"]
+
+[ext_resource type="PackedScene" uid="uid://cga5unbba7lna" path="res://player/player.tscn" id="1_rhax3"]
+[ext_resource type="PackedScene" uid="uid://3xsb8yqpe1ar" path="res://ui/gameUI.tscn" id="2_sa8pd"]
+[ext_resource type="PackedScene" uid="uid://bw3o3go54qvim" path="res://inimigos/goblin.tscn" id="4_f15q4"]
+[ext_resource type="PackedScene" uid="uid://yar60pqtin27" path="res://drops/carne.tscn" id="4_ollfn"]
+[ext_resource type="PackedScene" uid="uid://dsqttsnpxpkfp" path="res://drops/ouro.tscn" id="5_od6mm"]
+
+[node name="TestUi" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("1_rhax3")]
+position = Vector2(570, 360)
+danoEspada = 3
+
+[node name="GameUI" parent="." instance=ExtResource("2_sa8pd")]
+
+[node name="Goblin" parent="." instance=ExtResource("4_f15q4")]
+position = Vector2(1096, 373)
+
+[node name="Goblin2" parent="." instance=ExtResource("4_f15q4")]
+position = Vector2(107, 259)
+
+[node name="Goblin3" parent="." instance=ExtResource("4_f15q4")]
+position = Vector2(148, 451)
+
+[node name="Goblin4" parent="." instance=ExtResource("4_f15q4")]
+position = Vector2(312, 280)
+
+[node name="Goblin5" parent="." instance=ExtResource("4_f15q4")]
+position = Vector2(110, 374)
+
+[node name="Goblin6" parent="." instance=ExtResource("4_f15q4")]
+position = Vector2(238, 169)
+
+[node name="Goblin7" parent="." instance=ExtResource("4_f15q4")]
+position = Vector2(913, 268)
+
+[node name="Goblin8" parent="." instance=ExtResource("4_f15q4")]
+position = Vector2(907, 394)
+
+[node name="Goblin9" parent="." instance=ExtResource("4_f15q4")]
+position = Vector2(1052, 254)
+
+[node name="Meat" parent="." instance=ExtResource("4_ollfn")]
+position = Vector2(413, 569)
+
+[node name="Meat2" parent="." instance=ExtResource("4_ollfn")]
+position = Vector2(776, 127)
+
+[node name="Meat3" parent="." instance=ExtResource("4_ollfn")]
+position = Vector2(639, 591)
+
+[node name="Meat4" parent="." instance=ExtResource("4_ollfn")]
+position = Vector2(842, 570)
+
+[node name="Meat5" parent="." instance=ExtResource("4_ollfn")]
+position = Vector2(296, 487)
+
+[node name="Meat6" parent="." instance=ExtResource("4_ollfn")]
+position = Vector2(365, 390)
+
+[node name="Meat7" parent="." instance=ExtResource("4_ollfn")]
+position = Vector2(442, 233)
+
+[node name="Meat8" parent="." instance=ExtResource("4_ollfn")]
+position = Vector2(126, 602)
+
+[node name="Meat9" parent="." instance=ExtResource("4_ollfn")]
+position = Vector2(42, 492)
+
+[node name="Meat10" parent="." instance=ExtResource("4_ollfn")]
+position = Vector2(1011, 596)
+
+[node name="Meat11" parent="." instance=ExtResource("4_ollfn")]
+position = Vector2(974, 484)
+
+[node name="Meat12" parent="." instance=ExtResource("4_ollfn")]
+position = Vector2(928, 147)
+
+[node name="Meat13" parent="." instance=ExtResource("4_ollfn")]
+position = Vector2(607, 129)
+
+[node name="Meat14" parent="." instance=ExtResource("4_ollfn")]
+position = Vector2(370, 141)
+
+[node name="Meat15" parent="." instance=ExtResource("4_ollfn")]
+position = Vector2(777, 460)
+
+[node name="Meat16" parent="." instance=ExtResource("4_ollfn")]
+position = Vector2(516, 539)
+
+[node name="Ouro" parent="." instance=ExtResource("5_od6mm")]
+position = Vector2(446, 468)
+
+[node name="Ouro2" parent="." instance=ExtResource("5_od6mm")]
+position = Vector2(678, 474)
+
+[node name="Ouro3" parent="." instance=ExtResource("5_od6mm")]
+position = Vector2(261, 361)
+
+[node name="Ouro4" parent="." instance=ExtResource("5_od6mm")]
+position = Vector2(428, 316)
+
+[node name="Ouro5" parent="." instance=ExtResource("5_od6mm")]
+position = Vector2(743, 263)
+
+[node name="Ouro6" parent="." instance=ExtResource("5_od6mm")]
+position = Vector2(760, 368)

@@ -1,0 +1,79 @@
+[gd_scene load_steps=16 format=3 uid="uid://bjc7iv66nyqy8"]
+
+[ext_resource type="Texture2D" uid="uid://dhrqyli25lo0x" path="res://addons/Tiny Swords/Factions/Knights/Troops/Warrior/Purple/Warrior_Purple.png" id="1_5iyo8"]
+[ext_resource type="Texture2D" uid="uid://cf2bdabq3f85" path="res://addons/Tiny Swords/Factions/Knights/Troops/Pawn/Purple/Pawn_Purple.png" id="2_que7y"]
+[ext_resource type="Texture2D" uid="uid://dibbyb4wmrttt" path="res://addons/Tiny Swords/Factions/Knights/Troops/Archer/Archer + Bow/Archer_Bow_Purple.png" id="3_2cjls"]
+[ext_resource type="Texture2D" uid="uid://6kf0spsvm4t4" path="res://addons/Tiny Swords/Factions/Knights/Troops/Archer/Purple/Archer_Purlple.png" id="4_4wdia"]
+[ext_resource type="Texture2D" uid="uid://cyr8bx4mqw20i" path="res://addons/Tiny Swords/Factions/Goblins/Troops/Barrel/Red/Barrel_Red.png" id="5_vieqe"]
+[ext_resource type="Texture2D" uid="uid://wb7tc1d56i4l" path="res://addons/Tiny Swords/Factions/Goblins/Troops/TNT/Red/TNT_Red.png" id="6_fill1"]
+[ext_resource type="Texture2D" uid="uid://dx6hd6waue1m" path="res://addons/Tiny Swords/Factions/Goblins/Troops/Torch/Red/Torch_Red.png" id="7_vlc82"]
+[ext_resource type="Texture2D" uid="uid://b7rf8q8ili6j7" path="res://addons/Tiny Swords/Factions/Goblins/Troops/TNT/Dynamite/Dynamite.png" id="8_ko7tb"]
+[ext_resource type="Texture2D" uid="uid://couan36o3lxem" path="res://addons/Tiny Swords/Resources/Sheep/HappySheep_All.png" id="9_io2vy"]
+[ext_resource type="Texture2D" uid="uid://k3v8q3pebl8m" path="res://addons/Tiny Swords/Resources/Sheep/HappySheep_Bouncing.png" id="10_clovn"]
+[ext_resource type="Texture2D" uid="uid://cn18mww81jogi" path="res://addons/Tiny Swords/Resources/Sheep/HappySheep_Idle.png" id="11_ahdwl"]
+[ext_resource type="Texture2D" uid="uid://dsr8r74x6e0rf" path="res://addons/Tiny Swords/Factions/Knights/Troops/Pawn/Red/Pawn_Red.png" id="12_ctmbs"]
+[ext_resource type="Texture2D" uid="uid://xofc8i6x466q" path="res://addons/Tiny Swords/Resources/Resources/G_Spawn.png" id="13_o5vnl"]
+[ext_resource type="Texture2D" uid="uid://2dga1r1s7t6i" path="res://addons/Tiny Swords/Resources/Resources/M_Spawn.png" id="14_a7xrv"]
+[ext_resource type="Texture2D" uid="uid://cikgkwymja2cl" path="res://addons/Tiny Swords/Resources/Resources/W_Spawn.png" id="15_nwr1m"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="WarriorPurple" type="Sprite2D" parent="."]
+position = Vector2(649, 798)
+texture = ExtResource("1_5iyo8")
+
+[node name="PawnPurple" type="Sprite2D" parent="."]
+position = Vector2(1830, 588)
+texture = ExtResource("2_que7y")
+
+[node name="ArcherBowPurple" type="Sprite2D" parent="."]
+position = Vector2(3163, 1579)
+texture = ExtResource("3_2cjls")
+
+[node name="ArcherPurlple" type="Sprite2D" parent="."]
+position = Vector2(3186, 709)
+texture = ExtResource("4_4wdia")
+
+[node name="BarrelRed" type="Sprite2D" parent="."]
+position = Vector2(428, 2275)
+texture = ExtResource("5_vieqe")
+
+[node name="TntRed" type="Sprite2D" parent="."]
+position = Vector2(1507, 2245)
+texture = ExtResource("6_fill1")
+
+[node name="TorchRed" type="Sprite2D" parent="."]
+position = Vector2(2940, 2435)
+texture = ExtResource("7_vlc82")
+
+[node name="Dynamite" type="Sprite2D" parent="."]
+position = Vector2(1071, 2562)
+texture = ExtResource("8_ko7tb")
+
+[node name="HappySheepAll" type="Sprite2D" parent="."]
+position = Vector2(4665, 209)
+texture = ExtResource("9_io2vy")
+
+[node name="HappySheepBouncing" type="Sprite2D" parent="."]
+position = Vector2(4549, 420)
+texture = ExtResource("10_clovn")
+
+[node name="HappySheepIdle" type="Sprite2D" parent="."]
+position = Vector2(4680, 556)
+texture = ExtResource("11_ahdwl")
+
+[node name="PawnRed" type="Sprite2D" parent="."]
+position = Vector2(6082, 683)
+texture = ExtResource("12_ctmbs")
+
+[node name="GSpawn" type="Sprite2D" parent="."]
+position = Vector2(4680, 1226)
+texture = ExtResource("13_o5vnl")
+
+[node name="MSpawn" type="Sprite2D" parent="."]
+position = Vector2(4682, 1105)
+texture = ExtResource("14_a7xrv")
+
+[node name="WSpawn" type="Sprite2D" parent="."]
+position = Vector2(4690, 964)
+texture = ExtResource("15_nwr1m")
